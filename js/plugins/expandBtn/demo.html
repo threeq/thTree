@@ -1,0 +1,30 @@
+<html>
+<head>
+	<LINK rel="stylesheet" href="expandBtn.css">
+	<script src="jquery-1.7.2.min.js"></script>
+	<script src="expandBtn.js"></script>
+	<script>
+		$(function(){
+			$("#xxx1").expandBtn();
+			$("#xxx2").expandBtn({
+				radius: 5,
+				expend: false,
+				expendfn: function(){alert('expend');}
+			});
+			
+			$("#xxx3").expandBtn({
+				radius: 50,
+				opacity: '0.5',
+				expend: true,
+				collapsefn: function() {alert('collapse');}
+			});
+		});
+	</script>
+</head>
+<body>
+	
+	<div id="xxx1"></div>
+	<div id="xxx2"></div>
+	<div id="xxx3"></div>
+</body>
+</html>

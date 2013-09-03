@@ -1,0 +1,56 @@
+.EX{
+}
+.circle-x {
+	width: 20px; 
+	height: 20px; 
+	background: #333; 
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px; 
+	border-radius: 10px; 
+	opacity: 0.2;
+}
+.circle-x .r {
+	position: relative;
+	color: #fff;
+	left: 4px;
+	top: 8px;
+	border-width: 2px;
+	border-color: #fff;
+	border-style: solid;
+	width: 8px;
+	height:0px;
+}
+.circle-x .c {
+	display:none;
+}
+.circle-s {
+	width: 20px; 
+	height: 20px; 
+	background: red; 
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px; 
+	border-radius: 10px; 
+	opacity: 0.2;
+}
+.circle-s .r {
+	position: relative;
+	color: #fff;
+	left: 4px;
+	top: 8px;
+	border-width: 2px;
+	border-color: #fff;
+	border-style: solid;
+	width: 8px;
+	height:0px;
+}
+.circle-s .c {
+	position: relative;
+	color: #fff;
+	left: 8px;
+	top: 0px;
+	border-width: 2px;
+	border-color: #fff;
+	border-style: solid;
+	width: 0px;
+	height: 8px;
+}
